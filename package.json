@@ -1,6 +1,6 @@
 {
   "name": "gulp-git-submodule",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Making it easy to manage git submodules with gulp",
   "main": "index.js",
   "scripts": {
