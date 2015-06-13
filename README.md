@@ -50,6 +50,17 @@ gulp <sm:command> -e <submodule> --except <submodule>
 
 Note that the -o and -e flags can be chained so gulp `sm:list -e module1 -e module2` will do what you expect it to.
 
+### Creating your own tasks
+The package is designed to make it easy for you to create tasks that will operate in all your submodules.
 
+```
+var gulp = require('gulp')
+var task = require('gulp-git-submodule').task
 
-
+gulp.task('test', function(done) {
+  params = {
+    command: 'printf "${name}: " && ./bin/test',
+  }
+  task.call(this, params, done) 
+})
+```
