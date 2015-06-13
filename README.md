@@ -64,3 +64,5 @@ gulp.task('test', function(done) {
   task.call(this, params, done) 
 })
 ```
+
+The command will have the `$name` and `$branch` bash variables loaded.
