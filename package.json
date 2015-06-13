@@ -1,0 +1,28 @@
+{
+  "name": "gulp-git-submodule",
+  "version": "1.0.0",
+  "description": "Making it easy to manage git submodules with gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshuavial/gulp-git-submodule"
+  },
+  "keywords": [
+    "git",
+    "gulp",
+    "submodule"
+  ],
+  "author": "Joshua Vial <joshua@enspiral.com> (http://joshuavial.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshuavial/gulp-git-submodule/issues"
+  },
+  "homepage": "https://github.com/joshuavial/gulp-git-submodule",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "yargs": "^3.10.0"
+  }
+}
